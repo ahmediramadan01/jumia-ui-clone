@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous" />
+        <!-- Link to Bootstrap JS and Swiper JS -->
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Link to Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha384-PDQmv1Lb4rNRcbp+7QZpwVZxUtYTJofSuVv+Rk5DSn1b+CmVTIw+tG+6mDOg+08Z"
+            crossorigin="anonymous" />
+
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+            integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+            crossorigin="anonymous" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="container-fluid" style="padding: 0; background-color: #ffa7b3">
+                <div class="container d-flex justify-content-center p-0" style="max-width: 1152px">
+                    <img
+                        src="./assets/images/flash-sale.png"
+                        class="img-fluid"
+                        style="width: 100%"
+                        alt="Flash Sale Banner" />
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg nav bg-light navbar-light sticky-top my-3">
+                <div class="container">
+                    <i class="fa-solid fa-bars" style="color: black; margin-left: 40px"></i>
+                    <a class="navbar-brand" href="./index.html">
+                        <img
+                            src="./assets/images/jumia-logo.png"
+                            alt="Avatar Logo"
+                            style="width: 100px"
+                            class="rounded-pill ms-2" />
+                    </a>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <form class="d-flex mb-2">
+                                    <input
+                                        class="form-control me-2"
+                                        type="text"
+                                        placeholder="Search products,bands and categories"
+                                        style="width: 500px" />
+                                    <button class="btn btn-warning" type="button">Search</button>
+                                </form>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-user-check" style="color: black"></i>
+                                    <span class="ms-2" style="color: black">Hi, User</span>
+                                    <i class="fa-solid fa-chevron-down" style="color: black"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                    ><i class="fa-regular fa-circle-question" style="color: black"></i>
+                                    <span class="ms-2" style="color: black">Help</span>
+                                    <i class="fa-solid fa-chevron-down" style="color: black"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-cart-shopping" style="color: black"></i>
+                                    <span class="ms-2" style="color: black">Cart</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row rounded text-center justify-content-center mx-25 font-header-category">
+                SUPERMARKET TOP DEALS
+            </div>
+            <div class="row justify-content-center my-2">
+                <div class="col-md-6 mt-2">
+                    <a href="./products.html" class="text-center">
+                        <img
+                            src="./firstCat.png"
+                            alt="Category 1"
+                            class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <a href="#" class="text-center">
+                        <img
+                            src="./secondCat.png"
+                            alt="Category 2"
+                            class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+            </div>
+
+            <!--  Products -->
+            <div class="row rounded text-center justify-content-center mx-25 font-header-category">
+                SNACKS & BREAKFAST FOOD
+            </div>
+            <div class="row justify-content-center my-2 g-2">
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o1.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o2.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o3.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o4.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o5.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-10">
+                    <a href="#" class="text-center">
+                        <img src="./o6.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- swiper -->
+            <swiper-container init="false">
+                <div class="swiper-wrapper swiper-responsive">
+                    <!-- Slides will be appended here -->
+                </div>
+            </swiper-container>
+
+            <!--  -->
+            <div class="row rounded text-center justify-content-center mx-25 font-header-category">
+                Check More Deals
+            </div>
+            <div class="row justify-content-center my-2">
+                <div class="col-md-6">
+                    <a href="#" class="text-center">
+                        <img src="./n1.png" alt="Category 1" class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="text-center">
+                        <img src="./n2.png" alt="Category 2" class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+
+                <div class="col-md-6 mt-2">
+                    <a href="#" class="text-center">
+                        <img src="./n3.png" alt="Category 1" class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+                <div class="col-md-6 my-2">
+                    <a href="#" class="text-center">
+                        <img src="./n4.png" alt="Category 2" class="img-fluid rounded category-image resized-image" />
+                    </a>
+                </div>
+
+                <div class="row rounded text-center justify-content-center mx-25 font-header-category">
+                    HOUSEHOLD SUPPLIES
+                </div>
+                <div class="row justify-content-center g-2">
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h1.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h2.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h3.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h4.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h5.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-lg-2 col-md-5">
+                        <a href="#" class="text-center">
+                            <img src="./h6.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- second row -->
+                <div class="row justify-content-center g-2">
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./h7.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./h8.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./h9.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img
+                                src="./h10.png"
+                                alt="Category 1"
+                                class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img
+                                src="./h11.png"
+                                alt="Category 1"
+                                class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img
+                                src="./h12.png"
+                                alt="Category 1"
+                                class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- top picks -->
+                <div class="row justify-content-center" style="margin-top: 10px; margin-bottom: 0">
+                    <h5>Top picks</h5>
+                </div>
+
+                <!-- top picks Container -->
+                <div class="row justify-content-center my-2 g-2">
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t1.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t2.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t3.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t4.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t5.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./t7.jpg" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row rounded text-center justify-content-center mx-25 font-header-category">
+                    SHOP BY BRAND
+                </div>
+                <div class="row justify-content-center my-2 g-2">
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b1.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b2.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b3.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b4.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b5.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-10">
+                        <a href="#" class="text-center">
+                            <img src="./b6.png" alt="Category 1" class="img-fluid rounded category-image size-snacks" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container">
+            <div
+                class="row first-div justify-content-md-center text-center p-4"
+                style="margin-left: 1px; margin-right: 1px">
+                <div class="row row-cols-4">
+                    <!-- First  column-->
+                    <div class="col-2">
+                        <img src="./log-removebg-preview.png" alt="" width="50%" height="50px" />
+                    </div>
+                    <!--  Second column -->
+                    <div class="col-4 text-start">
+                        <h6>NEW TO JUMIA?</h6>
+                        <small>Subscribe to our newsletter to get updates on our latest offers!</small>
+                        <div class="row mt-3">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="input-group">
+                                    <input
+                                        type="text"
+                                        class="form-control custom-border"
+                                        id="amazingInput"
+                                        placeholder="Enter your email" />
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 text-start mt-1">
+                                <button type="submit" class="btn btn-primary custom-button border-white bg-transparent">
+                                    Female
+                                </button>
+                            </div>
+
+                            <div class="col-lg-2 col-md-12 ms-2 mt-1">
+                                <button type="submit" class="btn btn-primary custom-button border-white bg-transparent">
+                                    Male
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third  column-->
+                    <div class="text-end"></div>
+                    <!--  Third column -->
+                    <div class="col text-start">
+                        <div class="d-flex d-row">
+                            <img
+                                src="https://play-lh.googleusercontent.com/0X_q3LqdbEUOBddg0Rl4Q4a2f0fnJ5Xq31NCY0rmDHj-ogTHMd3DgSDRTucrFxL3YKY=w240-h480-rw"
+                                height="40px"
+                                width="40px"
+                                class="rounded" />
+                            <div class="px-2">
+                                <h6 style="margin-bottom: 0">DOWNLOAD JUMIA FREE APP</h6>
+                                <small>access to exclusive offers!</small>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-lg-5 mt-1">
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary custom-button text-start bg-transparent border-white">
+                                    Google
+                                </button>
+                            </div>
+                            <div class="col-lg-5 ms-1 mt-1">
+                                <button type="submit" class="btn btn-primary custom-button bg-transparent border-white">
+                                    Apple
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row second-div">
+            <div class="col-3">
+                <span class="f-t -pbm">Need Help?</span>
+                <ul class="list-unstyled">
+                    <li class="m-0"><a class="text-color-ul" href="https://www.jumia.com.eg/sp-help/">Help Center</a></li>
+                    <li class="m-0"><a class="text-color-ul" href="https://www.jumia.com.eg/sp-contact/">Contact us</a></li>
+                </ul>
+
+                <span class="">Useful Links:</span>
+                
+                
+                
+            </div>
+
+            <div class="col-3">
+                
+                B
+            </div>
+            <div class="col-3">
+                
+                C
+            </div>
+            <div class="col-3">
+                D
+                
+            </div>
+                
+            </div> -->
+            <!-- <div class="row second-div"> -->
+            <div class="custom-footer change-on-small-divces">
+                <div class="custom-footer-container">
+                    <div class="custom-footer-column">
+                        <h3>Need Help?</h3>
+                        <ul>
+                            <li><a href="#">Chat with us</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="custom-footer-column">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">How to shop on Jumia?</a></li>
+                            <li><a href="#">How to pay on Jumia?</a></li>
+                            <li><a href="#">Delivery timelines</a></li>
+                            <li><a href="#">Dispute Resolution Policy</a></li>
+                            <li><a href="#">Return & Refund Policy</a></li>
+                            <li><a href="#">Payment Information Guidelines</a></li>
+                        </ul>
+                    </div>
+                    <div class="custom-footer-column">
+                        <h3>Jumia Egypt</h3>
+                        <ul>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="custom-footer-column">
+                        <h3>Follow Us</h3>
+                        <ul class="social-media-list d-flex flex-row justify-content-between align-items-center">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook display-6"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter display-6"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram display-6"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube display-6"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="custom-footer-copyright">
+                    <p>© 2024 Jumia Egypt. All rights reserved.</p>
+                </div>
+                <div class="custom-footer-payment">
+                    <i class="fa-solid fa-money-check-dollar display-6"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+        <!-- 4 -->
+
+        <!-- Swiper JS -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+        <script>
+            let appendNumber = 10;
+            let prependNumber = 1;
+
+            const swiperEl = document.querySelector("swiper-container");
+
+            Object.assign(swiperEl, {
+                slidesPerView: 6,
+                centeredSlides: false,
+                spaceBetween: 15,
+                pagination: {
+                    // type: 'fraction',
+                },
+                navigation: true,
+                virtual: {
+                    slides: (function () {
+                        const slides = [];
+                        for (var i = 1; i < 8; i += 1) {
+                            slides.push(
+                                `
+                        <div class="swiper-slide rounded-1">
+                            <div class="card ">
+                                <img src="./${i}.jpg" class="card-img-top" alt="Slide ${i + 1}">
+                                <div class="card-body">
+                                    <p style=" margin-bottom: 0; font-size: 15px">Espresso N.1</p>
+                                    <p class="card-title text-start" style="font-size: 15px; margin-bottom:0; ">EGP 189.00<p>
+                                    <p class="text-start" style="text-decoration-line: line-through; font-size: 15px; color: gray; margin-top: 0;  margin-bottom: 0;">456</p>
+                                    </div>
+                            </div>
+                        </div>
+                    `
+                            );
+                        }
+                        return slides;
+                    })(),
+                },
+            });
+
+            swiperEl.initialize();
+
+            const swiper = swiperEl.swiper;
+
+            document.querySelector(".slide-1").addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.slideTo(0, 0);
+            });
+
+            document.querySelector(".slide-250").addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.slideTo(249, 0);
+            });
+
+            document.querySelector(".slide-500").addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.slideTo(499, 0);
+            });
+
+            document.querySelector(".prepend-2-slides").addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.virtual.prependSlide([]);
+            });
+
+            document.querySelector(".append-slide").addEventListener("click", function (e) {
+                e.preventDefault();
+                swiper.virtual.appendSlide();
+            });
+
+            //   second
+            // Add slides to Second Swiper
+
+            // Initialize Second Swiper
+        </script>
+    </body>
+</html>

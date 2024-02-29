@@ -1,0 +1,146 @@
+.container {
+    /* padding-top: 50px; */
+}
+
+.img-fluid {
+    /* width: 100%; */
+    height: auto;
+}
+
+h5 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.category-image {
+    transition: transform 0.3s ease;
+}
+
+.category-image:hover {
+    transform: scale(1.1);
+}
+
+.font-header-category {
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #fce7bb;
+}
+
+.container-custom {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.resized-image {
+    width: 572px; /* Set the desired width */
+    height: 260px; /* Set the desired height */
+    /* object-fit: cover; Optional: maintain aspect ratio and cover the container */
+}
+
+.size-snacks {
+    height: 184px;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 255px;
+    margin: 10px auto;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons a {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+/* .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+*/
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* second swiper */
+
+/* ABDO */
+
+.products {
+    background-color: #f7f7f7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+    /* color: white; */
+}
+
+.card-body:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.2);
+    cursor: pointer;
+}
+.products-cards input:hover {
+    cursor: pointer;
+}
+.card-body i {
+    color: rgb(243, 181, 25);
+}
+.form-check i {
+    color: rgb(243, 181, 25);
+}
+
+.card-body button {
+    background-color: orange;
+    color: white;
+}
